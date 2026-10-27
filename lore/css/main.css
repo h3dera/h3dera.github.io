@@ -1,0 +1,147 @@
+/*do całej strony*/
+* {
+  box-sizing: border-box;
+  font-family: 'Cinzel', serif;
+  color: #eaeaea;
+}
+
+/*cała strona (tło)*/
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #0f0b48;
+}
+
+/*Logo*/
+header img{
+  width: 250px;
+  margin: 5px;
+  float: left;
+}
+
+/*Główny nagłówek*/
+main header {
+  background: linear-gradient(to right, #1c1f41, #1b0f84);
+  padding: 1px;
+  text-align: center;
+  font-size: 30px;
+  text-shadow: 0 0 8px rgb(226, 226, 153);
+  letter-spacing: 2px;
+  box-shadow: 0 0 12px rgba(225, 226, 160, 0.5);
+  border-radius: 9px;
+}
+/*główny element strony*/
+main {
+  background-color: rgba(0, 0, 0, 0.6);
+  margin: 40px;
+  overflow-x: auto;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(115, 145, 206, 0.418);
+  clear: both;
+}
+main::-webkit-scrollbar {
+  height: 8px;
+}
+main::-webkit-scrollbar-thumb {
+  background: #0c3058;
+  border-radius: 4px;
+}
+#tak{
+    display: flex;
+    padding: 10px;
+    margin: 20px;
+}
+/*cytat*/
+#cytat {
+  font-style: italic;
+  font-size: 1.2em;
+  margin: 20px 0;
+  padding: 10px;
+  border-left: 4px solid #09125f;
+  background-color: rgba(255,255,255,0.05);
+}
+/*napis z boku*/
+.naglowek {
+  font-style: italic;
+  font-size: 40px;
+  margin: 20px 0;
+  padding: 15px;
+  border-left: 4px solid #09125f;
+  background-color: rgba(255,255,255,0.05);
+}
+/*elementy z postaciami*/
+.postacie{
+  display:list-item;
+  overflow-x: auto;
+  max-width: auto;
+  min-width: 300px;
+  height: 500px;
+  gap: 20px;
+  padding: 20px;
+  margin: 30px;
+  background-color: rgba(255, 255, 255, 0.196);
+  border-radius: 10px;
+}
+/*scrolle*/
+.postacie::-webkit-scrollbar {
+  width: 8px;
+}
+.postacie::-webkit-scrollbar-thumb {
+  background: #7b9abe;
+  border-radius: 4px;
+}
+
+/*elementy postaci*/
+.postac {
+  flex: 0 0 auto;
+  width: auto;
+  height: 200px;
+  background-color: #576781;
+  border-radius: 10px;
+  padding: 15px;
+  margin: 10px;
+  text-align: center;
+  font-size: 20px;
+  box-shadow: 0 4px 8px rgba(233, 223, 166, 0.3);
+}
+.zdjecie img{
+  height: 220px;
+  text-align: center;
+}
+
+/*stopka*/
+footer {
+  background-color: #05077e;
+  text-align: center;
+  padding: 10px;
+  font-size: 0.9em;
+  color: white;
+  box-shadow: 0 -2px 6px rgba(0,0,0,0.3);
+}
+
+/*nagłówek h1*/
+h1{
+  padding: 0px;
+  margin: 0px;
+  margin-bottom: 5px;
+}
+
+/*linki*/
+a{
+  text-decoration: none;
+  color: lavender;
+  font-weight: bold;
+}
+a:hover{
+  color: #3e508b;
+}
+/*linki w header (nagłówkach)*/
+header a{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+}
+header a:hover{
+  color: #404a75;
+}
