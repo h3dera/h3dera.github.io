@@ -1,0 +1,93 @@
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Cormorant Garamond', serif;
+  background: radial-gradient(ellipse at top,#f4f188, #d39c5c);
+  color: #000000;
+  line-height: 1.6;
+  display: flex;
+  flex-direction: column;
+}
+
+header img{
+  width: 250px;
+  margin: 5px;
+}
+
+main header{
+  font-size: 40px;
+  text-align: center;
+  text-shadow: 0 0 5px rgb(193, 193, 193);
+}
+
+main{
+  max-width: 1000px;
+  width: 90%;
+  margin: 0 auto;
+  padding: 40px 20px;
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(39, 35, 48, 0.1);
+  flex: 1;
+}
+
+#herby{
+    max-width: 900px;
+    width: 90%;
+    height: 380px;
+    margin: 5px auto;
+    padding: 5px;
+    background-color: rgb(193, 160, 43);
+    border-radius: 5px;
+    text-align: center;
+}
+
+.herb{
+    width: 250px;
+    height: 250px;
+    float: left;
+    padding: 10px;
+    margin: 10px;
+    background-color: #ffe419;
+}
+
+#czlonkowie{
+    max-width: 900px;
+    width: 90%;
+    margin: 5px auto;
+    padding: 5px;
+    background-color: rgb(194, 190, 124);
+    border-radius: 5px;
+    text-align: center;
+}
+
+#siedziba{
+    max-width: 900px;
+    width: 90%;
+    margin: 5px auto;
+    padding: 5px;
+    background-color: rgb(217, 189, 77);
+    border-radius: 5px;
+    text-align: center;
+}
+
+#artefakty{
+    max-width: 900px;
+    width: 90%;
+    margin: 5px auto;
+    padding: 5px;
+    background-color: rgb(227, 206, 84);
+    border-radius: 5px;
+    text-align: center;
+}
+
+#wojny{
+    max-width: 900px;
+    width: 90%;
+    margin: 5px auto;
+    padding: 5px;
+    background-color: rgb(240, 255, 155);
+    border-radius: 5px;
+    text-align: center;
+}
